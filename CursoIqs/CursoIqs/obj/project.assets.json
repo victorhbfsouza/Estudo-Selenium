@@ -5739,11 +5739,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\CursoIqs\\CursoIqs\\CursoIqs.csproj",
+      "projectUniqueName": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Projetos\\Estudo - Testes\\Estudo-Selenium\\CursoIqs\\CursoIqs\\CursoIqs.csproj",
       "projectName": "CursoIqs",
-      "projectPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\CursoIqs\\CursoIqs\\CursoIqs.csproj",
+      "projectPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Projetos\\Estudo - Testes\\Estudo-Selenium\\CursoIqs\\CursoIqs\\CursoIqs.csproj",
       "packagesPath": "C:\\Users\\VictorHugoBorgesFran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\CursoIqs\\CursoIqs\\obj\\",
+      "outputPath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Projetos\\Estudo - Testes\\Estudo-Selenium\\CursoIqs\\CursoIqs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VictorHugoBorgesFran\\AppData\\Roaming\\NuGet\\NuGet.Config",

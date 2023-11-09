@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N1u5aoMISdEks4qZ8r4J9axs6jiSIjBojuNGa8ChXovdQwvmFAyLzt4FVL8He65CKA4rjjeOL6f7jqy+QCC+yw==",
+  "dgSpecHash": "mYa4s5NcNJU88IcUOk39uWYk5s+b3HXthEmZPmevx/JSP2k/DaPpwx1ddVoQSgPhlu0ZLZPjG/JSEsDWeT3MVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\CursoIqs\\CursoIqs\\CursoIqs.csproj",
+  "projectFilePath": "C:\\Users\\VictorHugoBorgesFran\\Desktop\\Projetos\\Estudo - Testes\\Estudo-Selenium\\CursoIqs\\CursoIqs\\CursoIqs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VictorHugoBorgesFran\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\VictorHugoBorgesFran\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
