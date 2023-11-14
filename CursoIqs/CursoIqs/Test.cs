@@ -13,7 +13,6 @@ namespace CursoIqs
     {
         public IWebDriver driver;
 
-
         public Test()
         {
             driver = new ChromeDriver();
@@ -29,7 +28,7 @@ namespace CursoIqs
         }
 
         [Fact]
-        public void TestDemo()
+        public void TestGeral()
         {
             LoginPage loginPage = new LoginPage(driver);
             HomePage homePage = new HomePage(driver);
@@ -51,5 +50,17 @@ namespace CursoIqs
             homePage.Logout();
             loginPage.LoginFailPassword();
         }
+
+        [Fact]
+        public void TestLoginByLogout()
+        {
+            LoginPage loginPage = new LoginPage(driver);
+            HomePage homePage = new HomePage(driver);
+
+            loginPage.LoginSucsses();
+            homePage.Buy();
+            homePage.Logout();
+        }
+        // Aqui, cada anotação [Fact] será um teste a ser executado, sendo as funcionalidades de cada tela adicionadas a sua classe page correspondente
     }
 }

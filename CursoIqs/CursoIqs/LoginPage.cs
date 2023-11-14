@@ -39,11 +39,13 @@ namespace CursoIqs
 
         public void LoginFailPassword()
         {
-            #region VERIFICAÇÃO DE LOGIN COM ERRO E VERIFICAÇÃO DE MENSAGEM
+            #region LOGIN COM ERRO
             driver.FindElement(UserNameInput).SendKeys(user);
             // Neste caso, para o teste passar deve ser informado o username ou password errados
             driver.FindElement(PasswordInput).SendKeys("senha errada");
             driver.FindElement(By.Id("login-button")).Click();
+            #endregion
+            #region VERIFICAÇÃO DA MENSAGEM DE ERRO
             string msgError = driver.FindElement(By.XPath("//h3[@data-test='error']")).Text;
             Assert.Equal("Epic sadface: Username and password do not match any user in this service", msgError);
             #endregion
