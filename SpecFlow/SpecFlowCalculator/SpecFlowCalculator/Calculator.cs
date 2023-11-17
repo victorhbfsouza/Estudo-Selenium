@@ -14,5 +14,14 @@
         {
             return FirstNumber - SecondNumber;
         }
+        
+        public int Multiplication()
+        {
+            return FirstNumber * SecondNumber;
+        }
+        public int Division()
+        {
+            return FirstNumber / SecondNumber;
+        }
     }
 }

@@ -17,3 +17,15 @@ Scenario: Subtract two numbers
     And the second number is 70
     When the two numbers are subtracted
     Then the result should be 50
+
+Scenario: Multiplication two numbers
+    Given the first number is 120
+    And the second number is 70
+    When the two numbers are multiplication
+    Then the result should be 8400
+
+Scenario: Division two numbers
+    Given the first number is 120
+    And the second number is 60
+    When the two numbers are division
+    Then the result should be 2
